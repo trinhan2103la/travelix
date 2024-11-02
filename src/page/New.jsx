@@ -50,10 +50,10 @@ const New = () => {
                         <a href="#">by Lore Papp |</a>
                       </li>
                       <li>
-                        <a href="#">Uncategorized |</a>
+                        <a href="#"> Uncategorized |</a>
                       </li>
                       <li>
-                        <a href="#">3 Comments</a>
+                        <a href="#"> 3 Comments</a>
                       </li>
                     </ul>
                     <a href="#" className="blog-container-post--title">
@@ -180,13 +180,13 @@ const New = () => {
                   <div className="blog-container-post">
                     <ul>
                       <li>
-                        <a href="#">by Lore Papp</a>
+                        <a href="#">by Lore Papp |</a>
                       </li>
                       <li>
-                        <a href="#">Uncategorized</a>
+                        <a href="#"> Uncategorized |</a>
                       </li>
                       <li>
-                        <a href="#">3 Comments</a>
+                        <a href="#"> 3 Comments</a>
                       </li>
                     </ul>
                     <a href="#" className="blog-container-post--title">
