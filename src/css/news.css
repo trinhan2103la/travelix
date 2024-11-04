@@ -30,6 +30,10 @@
   position: relative;
 }
 
+.blog-container-post > ul > li {
+  margin-right: 5px;
+}
+
 .blog-container-post--time {
   color: var(--white-color);
   display: flex;
