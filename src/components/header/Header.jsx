@@ -87,6 +87,7 @@ const Header = () => {
     { path: '/about', label: 'about' },
     { path: '/offer', label: 'offers' },
     { path: '/new', label: 'news' },
+    { path: '/contacts', label: 'contact' },
   ];
   return (
     <div className="header w-[100%] relative">
@@ -151,7 +152,7 @@ const Header = () => {
                   </div>
                 </a>
               </div>
-              <div className="hide-on-tablet-mobile">
+              <div className="one-6 hide-on-tablet-mobile">
                 <ul className="header-nav-container--list text-white">
                   {navLinks.map((link) => (
                     <li key={link.path}>

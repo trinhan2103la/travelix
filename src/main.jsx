@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';
 import App from './App.jsx';
 import './css/offers.css';
+import './css/contact.css';
 import './css/news.css';
 import './css/index.css';
 import './css/grids.css';

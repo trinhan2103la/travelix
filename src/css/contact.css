@@ -1,0 +1,161 @@
+.home___background {
+  background: url('https://hoanghamobile.com/tin-tuc/wp-content/webp-express/webp-images/uploads/2024/04/anh-bien-10.jpg.webp');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+}
+
+.home-title {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.home-title h1 {
+  text-shadow: 2px 2px 7px rgb(145, 145, 145);
+}
+
+.contact-container {
+  height: 100%;
+  padding: 35px 0;
+}
+
+.contact-container-form--title {
+  text-align: center;
+}
+
+.contact-form {
+  padding: 0 50px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.contact-about {
+  margin-bottom: 25px;
+}
+
+.contact-about--logo a {
+  color: var(--black);
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 800;
+  display: flex;
+  gap: 10px;
+  align-items: baseline;
+}
+
+.contact-about--text {
+  font-weight: 600;
+  margin: 25px 0;
+  text-align: justify;
+  line-height: 2;
+  color: rgb(146, 145, 145);
+}
+
+.contact-about--social > li {
+  list-style: none;
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  border: solid 2px #fa9e1b;
+  border-radius: 50%;
+  text-align: center;
+  transition: all 200ms ease;
+  margin-right: 9px;
+}
+
+.contact-about--social li .i {
+  position: relative;
+  color: #fa9e1b;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+  transition: all 200ms ease;
+}
+
+.contact-container .info {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.contact-container-info {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.contact-container-info span {
+  padding-left: 10px;
+  color: var(--black);
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.contact-container-info span:hover {
+  color: var(--yellow);
+}
+
+.contact-container-info--img img {
+  max-width: 20px;
+  display: block;
+  cursor: pointer;
+}
+
+.contact-container-content {
+  margin-top: 48px;
+}
+
+.img img {
+  max-width: 100%;
+}
+
+@media (max-width: 1023px) {
+  .contact-container {
+    padding: 50px 10px;
+  }
+  .contact-form {
+    padding: 0 30px;
+  }
+  .contact-about {
+    padding-right: 32px;
+  }
+  .contact-about--social li {
+    width: 32px;
+    height: 32px;
+  }
+  .contact-about--social li .i {
+    font-size: 15px;
+  }
+  .contact-container-content {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 739px) {
+  .contact-form {
+    padding: 0 20px;
+  }
+  .contact-container {
+    padding: 20px 0;
+  }
+  .padding {
+    padding: 0 20px;
+  }
+  .contact-about--logo {
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 479px) {
+  .contact-form {
+    padding: 0 10px;
+  }
+  .contact-container-form {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
