@@ -201,18 +201,11 @@ const Header = () => {
           ref={rightBarRef}
         >
           <ul>
-            <li>
-              <a href="/">home</a>
-            </li>
-            <li>
-              <a href="/about">about</a>
-            </li>
-            <li>
-              <a href="/offer">offers</a>
-            </li>
-            <li>
-              <a href="/new">news</a>
-            </li>
+            {navLinks.map((link) => (
+              <li key={link.path}>
+                <Link to={link.path}>{link.label}</Link>
+              </li>
+            ))}
           </ul>
           <FontAwesomeIcon
             onClick={CloseRightBar}
