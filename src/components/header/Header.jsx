@@ -102,22 +102,22 @@ const Header = () => {
               <div className="one-6 num-8 c-8 h-[100%]">
                 <div className="header-topbar-container--contacts h-[100%]">
                   <span className="pr-11 cursor-default">+84 889 788 760</span>
-                  <a href="">
+                  <a href="https://www.pinterest.com/">
                     <FontAwesomeIcon icon={faPinterest} />
                   </a>
-                  <a href="">
+                  <a href="https://www.facebook.com/trinhan.duong.77">
                     <FontAwesomeIcon icon={faFacebookF} />
                   </a>
-                  <a href="">
+                  <a href="#">
                     <FontAwesomeIcon icon={faTwitter} />
                   </a>
-                  <a href="">
+                  <a href="https://github.com/trinhan2103la">
                     <FontAwesomeIcon icon={faGit} />
                   </a>
-                  <a href="">
+                  <a href="https://www.linkedin.com/in/duong-tri-nhan-ba8a45227/">
                     <FontAwesomeIcon icon={faLinkedinIn} />
                   </a>
-                  <a href="">
+                  <a href="#">
                     <FontAwesomeIcon icon={faDribbble} />
                   </a>
                 </div>

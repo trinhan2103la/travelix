@@ -41,27 +41,27 @@ const Footer = () => {
                 <div className="container-about--social">
                   <ul>
                     <li>
-                      <a href="">
+                      <a href="https://www.pinterest.com/">
                         <FontAwesomeIcon icon={faPinterest} />
                       </a>
                     </li>
                     <li>
-                      <a href="">
+                      <a href="https://www.facebook.com/trinhan.duong.77">
                         <FontAwesomeIcon icon={faFacebookF} />
                       </a>
                     </li>
                     <li>
-                      <a href="">
+                      <a href="#">
                         <FontAwesomeIcon icon={faTwitter} />
                       </a>
                     </li>
                     <li>
-                      <a href="">
+                      <a href="https://github.com/trinhan2103la">
                         <FontAwesomeIcon icon={faGit} />
                       </a>
                     </li>
                     <li>
-                      <a href="">
+                      <a href="https://www.linkedin.com/in/duong-tri-nhan-ba8a45227/">
                         <FontAwesomeIcon icon={faLinkedinIn} />
                       </a>
                     </li>

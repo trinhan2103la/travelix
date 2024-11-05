@@ -308,6 +308,7 @@ h2 {
 
 .footer-container-about a {
   display: flex;
+  align-items: baseline;
   gap: 10px;
   font-size: 30px;
   color: #f4f4f8;
